@@ -1,0 +1,38 @@
+.active {
+  background-color: rgb(158, 158, 161);
+}
+.mapboxgl-canvas {
+  position: initial !important;
+}
+.height-map {
+  height: 93vh;
+}
+.left-scroll {
+  /* padding: 1rem; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  height: 93vh;
+}
+.button-style {
+  width: 100% !important;
+}
+.search {
+  border: hidden;
+  border-bottom-style: groove;
+  text-align: center;
+  width: 100%;
+}
+.search:focus {
+  outline: none;
+}
+
+.left-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.left-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

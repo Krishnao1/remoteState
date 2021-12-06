@@ -1,0 +1,28 @@
+.options-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE; Edge and Firefox */
+.options-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.options-container {
+  position: absolute;
+  border: 1px solid #a0a0a078;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+  max-height: 75vh;
+  scroll-behavior: auto;
+  overflow-y: auto;
+}
+.selected_buttons {
+  border: 1px solid #dbdbdb42;
+  background: #322fc8;
+  color: #fff;
+}
+.list-buttons {
+  border: 1px solid #dbdbdb42;
+  background: transparent;
+}
